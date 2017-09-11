@@ -11,6 +11,9 @@ var Saver = /** @class */ (function () {
     Saver.prototype.display = function () {
         console.log(this.saves);
     };
+    Saver.prototype.delete = function (pos) {
+        this.saves.splice(pos, 1);
+    };
     return Saver;
 }());
 exports.Saver = Saver;

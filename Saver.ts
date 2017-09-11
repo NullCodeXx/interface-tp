@@ -1,6 +1,7 @@
-//Class Saver qui utilise l'interface.
+// 2 Class Saver qui utilise l'interface.
 import {Savable} from './interface-save';
 export class Saver{
+
     constructor(private saves: string[] = []){}
 
     save(tosave : Savable):void {
@@ -9,5 +10,9 @@ export class Saver{
 
     display() {
         console.log(this.saves);
+    }
+
+    delete(pos){
+        this.saves.splice(pos,1);
     }
 }

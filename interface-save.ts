@@ -1,4 +1,4 @@
-//interface Savable.
+// 1 interface Savable.
 
 export interface Savable {
     getinfos(): string;
