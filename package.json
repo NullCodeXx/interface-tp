@@ -1,0 +1,22 @@
+{
+  "name": "interface-tp",
+  "version": "0.0.1",
+  "description": "Implémenter une interface \"Savable\" sur des class chat et chien",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaafarcode/interface-tp.git"
+  },
+  "author": "D. BOUMAZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaafarcode/interface-tp/issues"
+  },
+  "homepage": "https://github.com/djaafarcode/interface-tp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
